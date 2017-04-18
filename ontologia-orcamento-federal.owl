@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kennedy/ontologies/2017/2/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/kennedy/ontologies/2017/2/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/kennedyrs/orcamento-federal">
+        <owl:versionIRI rdf:resource="https://github.com/kennedyrs/orcamento-federal/1.0.1"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temAcao -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temAcao">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Acao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temCategoriaEconomica -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temCategoriaEconomica">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#CategoriaEconomica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temClassificador -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temClassificador">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temElementoDespesa -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temElementoDespesa">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#ElementoDespesa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temEsfera -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temEsfera">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Esfera"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temExercicio -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temExercicio">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Exercicio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temFonteRecursos -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temFonteRecursos">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#FonteRecursos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temFuncao -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temFuncao">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Funcao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temGnd -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temGnd">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#GrupoNatDespesa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temIdentificadorUSO -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temIdentificadorUSO">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#IdentificadorUSO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temModalidadeAplicacao -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temModalidadeAplicacao">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#ModalidadeAplicacao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temOrgao -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temOrgao">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#UnidadeOrcamentaria"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Orgao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temPlanoOrcamentario -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temPlanoOrcamentario">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#PlanoOrcamentario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temPrograma -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temPrograma">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Programa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temResultadoPrimario -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temResultadoPrimario">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#ResultadoPrimario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temSubFuncao -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temSubFuncao">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Subfuncao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temSubtitulo -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temSubtitulo">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#Subtitulo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#temUnidadeOrcamentaria -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#temUnidadeOrcamentaria">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="https://github.com/kennedyrs/orcamento-federal#UnidadeOrcamentaria"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#codigo -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#codigo">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#dataAtualizacao -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#dataAtualizacao"/>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#identificador -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#identificador">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#Exercicio"/>
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#PlanoOrcamentario"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#label -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#label">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#valorDotacaoInicial -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#valorDotacaoInicial">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#valorEmpenhado -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#valorEmpenhado">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#valorLeiMaisCreditos -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#valorLeiMaisCreditos">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#valorLiquidado -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#valorLiquidado">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#valorPago -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#valorPago">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#valorProjetoLei -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/kennedyrs/orcamento-federal#valorProjetoLei">
+        <rdfs:domain rdf:resource="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Acao -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Acao">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Atividade -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Atividade">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Acao"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#CategoriaEconomica -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#CategoriaEconomica">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Classificador -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#ElementoDespesa -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#ElementoDespesa">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Esfera -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Esfera">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Exercicio -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Exercicio"/>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#FonteRecursos -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#FonteRecursos">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Funcao -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Funcao">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#GrupoNatDespesa -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#GrupoNatDespesa">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#IdentificadorUSO -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#IdentificadorUSO">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#ItemDespesa -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#ItemDespesa"/>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#ModalidadeAplicacao -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#ModalidadeAplicacao">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#OperacaoEspecial -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#OperacaoEspecial">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Acao"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Orgao -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Orgao"/>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#PlanoOrcamentario -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#PlanoOrcamentario">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Programa -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Programa">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Projeto -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Projeto">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Acao"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#ResultadoPrimario -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#ResultadoPrimario">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Subfuncao -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Subfuncao">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#Subtitulo -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#Subtitulo">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/kennedyrs/orcamento-federal#UnidadeOrcamentaria -->
+
+    <owl:Class rdf:about="https://github.com/kennedyrs/orcamento-federal#UnidadeOrcamentaria">
+        <rdfs:subClassOf rdf:resource="https://github.com/kennedyrs/orcamento-federal#Classificador"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
